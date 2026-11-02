@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Generate a minimal, accessible academic website without dependencies."""
+"""Regenerate publications.html only; edit the home page directly in index.html."""
 import json
-from calendar import month_name
 from html import escape
 from pathlib import Path
 
@@ -15,7 +14,7 @@ CATEGORIES = [
 ]
 
 
-def publication(p, compact=False):
+def publication(p):
     public_pdf = any(link['label'] == 'Open Access PDF' for link in p['links'])
     visible_links = [link for link in p['links'] if not (public_pdf and link['label'] == 'PDF')]
     links = []
@@ -27,7 +26,7 @@ def publication(p, compact=False):
             label = 'Open PDF'
         links.append(f'<a href="{escape(link["url"], quote=True)}">{escape(label)}<span aria-hidden="true"> ↗</span></a>')
     award = '<span class="award">Best Paper Award</span>' if p['award'] else ''
-    ident = ('home-' if compact else '') + p['id']
+    ident = p['id']
     lang = ' lang="ko"' if p['category'].startswith('korean-') else ''
     return f'''<article class="publication" id="{ident}" data-category="{p['category']}">
       <p class="pub-year">{p['year']}</p>
@@ -41,13 +40,10 @@ def publication(p, compact=False):
     </article>'''
 
 
-def page(content, publications=False):
-    title = 'Publications — Jaemin Kim' if publications else 'Jaemin Kim'
-    description = ('Publications by Jaemin Kim in wireless networks, O-RAN, online learning, and federated learning.' if publications else 'Jaemin Kim is a Ph.D. student at Chung-Ang University researching wireless networks, O-RAN, online learning, and resource allocation.')
-    canonical = 'https://jmkim-jay.github.io/' + ('publications.html' if publications else '')
-    home = 'index.html' if publications else ''
-    about_current = '' if publications else ' aria-current="page"'
-    pubs_current = ' aria-current="page"' if publications else ''
+def page(content):
+    title = 'Publications — Jaemin Kim'
+    description = 'Publications by Jaemin Kim in wireless networks, O-RAN, online learning, and federated learning.'
+    canonical = 'https://jmkim-jay.github.io/publications.html'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -70,80 +66,20 @@ def page(content, publications=False):
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Jaemin Kim — home">Jaemin Kim</a>
     <nav aria-label="Main navigation">
-      <a href="{home}#about"{about_current}>About</a>
-      <a href="publications.html"{pubs_current}>Publications</a>
-      <a href="{home}#experience">Experience</a>
+      <a href="index.html#about">About</a>
+      <a href="publications.html" aria-current="page">Publications</a>
+      <a href="index.html#experience">Experience</a>
     </nav>
   </header>
   <main id="main">{content}</main>
   <footer class="site-footer">
     <span>© 2026 Jaemin Kim</span>
-    <div><a href="mailto:jmkim@uclab.re.kr">Email</a><a href="https://github.com/jmkim-jay">GitHub ↗</a><a href="#main">Top ↑</a></div>
+    <div><a href="mailto:jmkim@uclab.re.kr">Email</a><a href="https://github.com/jmkim-jay">GitHub ↗</a><a href="https://www.linkedin.com/in/jaemin-kim-77413a429/">LinkedIn ↗</a><a href="#main">Top ↑</a></div>
   </footer>
 </body>
 </html>
 '''
 
-
-def publication_date(p):
-    month = next((i for i, name in enumerate(month_name) if name and name in p['venue']), 0)
-    return p['year'], month
-
-
-published_journals = sorted(
-    (p for p in PUBLICATIONS if p['category'] == 'journal' and 'to appear' not in p['venue'].lower()),
-    key=publication_date,
-    reverse=True,
-)
-journals = '\n'.join(publication(p, compact=True) for p in published_journals)
-home = f'''
-<section class="intro" id="about" aria-labelledby="intro-title">
-  <div class="intro-header">
-    <div><h1 id="intro-title">Jaemin Kim <span lang="ko">김재민</span></h1>
-      <p class="role">Ph.D. student · Chung-Ang University</p>
-      <p class="field">Wireless networks, online learning &amp; optimization</p>
-    </div>
-    <img class="portrait" src="assets/portrait.jpeg" alt="Portrait of Jaemin Kim" width="120" height="154" fetchpriority="high">
-  </div>
-  <div class="bio">
-    <p>I am a Ph.D. student in Computer Science and Engineering at <a href="https://www.cau.ac.kr/">Chung-Ang University</a>, advised by Prof. Sungrae Cho at <a href="https://uclab.re.kr/">UCLab</a>. I study real-time control and resource allocation in wireless networks, especially O-RAN.</p>
-    <p>In November–December 2026, I am a visiting researcher at <a href="https://www.northeastern.edu/">Northeastern University</a>, collaborating with Prof. Tommaso Melodia and WiNEs Lab.</p>
-  </div>
-  <div class="contact-links" aria-label="Contact and profiles">
-    <a href="mailto:jmkim@uclab.re.kr">jmkim@uclab.re.kr <span aria-hidden="true">↗</span></a>
-    <a href="https://github.com/jmkim-jay">GitHub <span aria-hidden="true">↗</span></a>
-    <a href="https://uclab.re.kr/jmkim.html">UCLab profile <span aria-hidden="true">↗</span></a>
-  </div>
-</section>
-
-<section class="section" id="research" aria-labelledby="research-title">
-  <div class="section-heading"><h2 id="research-title">Research</h2></div>
-  <div class="research-grid">
-    <article><h3>O-RAN control</h3><p>Radio resource allocation, scheduling, and real-time decision-making.</p></article>
-    <article><h3>Online learning</h3><p>Sequential optimization under changing network conditions.</p></article>
-    <article><h3>Wireless federated learning</h3><p>Energy-efficient device scheduling and communication.</p></article>
-    <article><h3>Network digital twins</h3><p>Digital twin-assisted control and synchronization.</p></article>
-  </div>
-</section>
-
-<section class="section" id="journal-publications" aria-labelledby="journal-title">
-  <div class="section-heading"><h2 id="journal-title">Recent journal publications</h2><a class="section-link" href="publications.html">All publications <span aria-hidden="true">↗</span></a></div>
-  <div class="publication-list">{journals}</div>
-</section>
-
-<section class="section" id="experience" aria-labelledby="experience-title">
-  <div class="section-heading"><h2 id="experience-title">Education &amp; experience</h2></div>
-  <div class="timeline">
-    <article><p class="timeline-date">Nov–Dec 2026</p><div><h3>Visiting Researcher</h3><p>Northeastern University · WiNEs Lab</p><p class="detail">Host: Prof. Tommaso Melodia</p></div></article>
-    <article><p class="timeline-date">Current</p><div><h3>Ph.D. student, Computer Science &amp; Engineering</h3><p>Chung-Ang University</p><p class="detail">Advisor: Prof. Sungrae Cho</p></div></article>
-    <article><p class="timeline-date">2025</p><div><h3>M.S., Computer Science &amp; Engineering</h3><p>Chung-Ang University</p></div></article>
-    <article><p class="timeline-date">2023</p><div><h3>B.S., Computer Science &amp; Engineering</h3><p>Chung-Ang University</p></div></article>
-  </div>
-</section>
-
-<section class="contact" id="contact" aria-labelledby="contact-title">
-  <h2 id="contact-title">Contact</h2><p>For research discussions and collaboration, reach me at <a href="mailto:jmkim@uclab.re.kr">jmkim@uclab.re.kr</a>.</p>
-</section>'''
 
 groups = ''
 filters = f'<button type="button" data-filter="all" aria-pressed="true">All <span>{len(PUBLICATIONS)}</span></button>'
@@ -170,6 +106,5 @@ def write_page(filename, content):
     (ROOT / filename).write_text(cleaned, encoding='utf-8')
 
 
-write_page('index.html', page(home))
-write_page('publications.html', page(pubs, publications=True))
-print(f'Generated 2 pages: {len(published_journals)} published journals / {len(PUBLICATIONS)} total publications.')
+write_page('publications.html', page(pubs))
+print(f'Generated publications.html: {len(PUBLICATIONS)} publications. index.html was not changed.')
