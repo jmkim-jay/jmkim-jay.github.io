@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate a minimal, accessible academic website without dependencies."""
 import json
+from calendar import month_name
 from html import escape
 from pathlib import Path
 
@@ -26,7 +27,7 @@ def publication(p, compact=False):
             label = 'Open PDF'
         links.append(f'<a href="{escape(link["url"], quote=True)}">{escape(label)}<span aria-hidden="true"> ↗</span></a>')
     award = '<span class="award">Best Paper Award</span>' if p['award'] else ''
-    ident = ('selected-' if compact else '') + p['id']
+    ident = ('home-' if compact else '') + p['id']
     lang = ' lang="ko"' if p['category'].startswith('korean-') else ''
     return f'''<article class="publication" id="{ident}" data-category="{p['category']}">
       <p class="pub-year">{p['year']}</p>
@@ -84,9 +85,17 @@ def page(content, publications=False):
 '''
 
 
-selected_ids = ['journal-2', 'conference-15', 'journal-3', 'journal-1']
-by_id = {p['id']: p for p in PUBLICATIONS}
-selected = '\n'.join(publication(by_id[i], compact=True) for i in selected_ids)
+def publication_date(p):
+    month = next((i for i, name in enumerate(month_name) if name and name in p['venue']), 0)
+    return p['year'], month
+
+
+published_journals = sorted(
+    (p for p in PUBLICATIONS if p['category'] == 'journal' and 'to appear' not in p['venue'].lower()),
+    key=publication_date,
+    reverse=True,
+)
+journals = '\n'.join(publication(p, compact=True) for p in published_journals)
 home = f'''
 <section class="intro" id="about" aria-labelledby="intro-title">
   <div class="intro-header">
@@ -117,17 +126,9 @@ home = f'''
   </div>
 </section>
 
-<section class="section" id="news" aria-labelledby="news-title">
-  <div class="section-heading"><h2 id="news-title">News</h2></div>
-  <div class="news-list">
-    <article><time datetime="2026-11">Nov 2026</time><p>Joining WiNEs Lab at Northeastern University as a visiting researcher.</p></article>
-    <article><time datetime="2026-08">Aug 2026</time><p>Our work on <a href="https://ieeexplore.ieee.org/document/11421057">energy-efficient online federated learning</a> appears in <em>IEEE TVT</em>.</p></article>
-  </div>
-</section>
-
-<section class="section" id="selected-publications" aria-labelledby="selected-title">
-  <div class="section-heading"><h2 id="selected-title">Selected publications</h2><a class="section-link" href="publications.html">All publications <span aria-hidden="true">↗</span></a></div>
-  <div class="publication-list">{selected}</div>
+<section class="section" id="journal-publications" aria-labelledby="journal-title">
+  <div class="section-heading"><h2 id="journal-title">Recent journal publications</h2><a class="section-link" href="publications.html">All publications <span aria-hidden="true">↗</span></a></div>
+  <div class="publication-list">{journals}</div>
 </section>
 
 <section class="section" id="experience" aria-labelledby="experience-title">
@@ -171,4 +172,4 @@ def write_page(filename, content):
 
 write_page('index.html', page(home))
 write_page('publications.html', page(pubs, publications=True))
-print(f'Generated 2 pages: {len(selected_ids)} selected / {len(PUBLICATIONS)} total publications.')
+print(f'Generated 2 pages: {len(published_journals)} published journals / {len(PUBLICATIONS)} total publications.')

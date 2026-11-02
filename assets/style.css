@@ -47,8 +47,6 @@ h2 { font-size: 17px; font-weight: 650; line-height: 1.5; letter-spacing: -.3px;
 .research-grid article { padding-left: 15px; border-left: 2px solid var(--line); }
 .research-grid h3 { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
 .research-grid p { font-size: 13px; color: var(--muted); line-height: 1.7; max-width: 320px; }
-.news-list article { display: grid; grid-template-columns: 90px minmax(0,1fr); gap: 16px; font-size: 13px; padding: 8px 0; line-height: 1.8; }
-.news-list time { color: var(--muted); font-size: 12px; padding-top: 1px; font-variant-numeric: tabular-nums; }
 .publication { display: grid; grid-template-columns: 48px minmax(0,1fr); gap: 21px; padding: 22px 0; border-top: 1px solid var(--line); }
 .pub-year { color: var(--muted); font-size: 12px; padding-top: 2px; font-variant-numeric: tabular-nums; }
 .publication h3 { font-size: 15px; line-height: 1.65; font-weight: 600; margin-bottom: 6px; }
@@ -111,8 +109,6 @@ h2 { font-size: 17px; font-weight: 650; line-height: 1.5; letter-spacing: -.3px;
   .research-grid article { padding-left: 12px; }
   .research-grid h3 { font-size: 13px; }
   .research-grid p { font-size: 12px; max-width: none; }
-  .news-list article { grid-template-columns: 67px minmax(0,1fr); gap: 11px; font-size: 12px; }
-  .news-list time { font-size: 10px; }
   .publication { grid-template-columns: 35px minmax(0,1fr); gap: 12px; padding: 20px 0; }
   .pub-year { font-size: 10px; padding-top: 3px; }
   .publication h3 { font-size: 14px; line-height: 1.65; }
