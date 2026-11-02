@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "journal-3",
+    "category": "journal",
+    "categoryLabel": "International Journals",
+    "title": "On Energy Efficiency for Multi-Flow Semantic Routing in Multi-UAV Relay Networks",
+    "authors": "T. S. Do, T. P. Truong, K. N. T. Tran, H. D. Mac, J. Kim, T.-H. Nguyen, N.-N. Dao, and S. Cho",
+    "venue": "to appear in Elsevier Journal of Network and Computer Applications, 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/tung_jnca_2026.pdf"
+      },
+      {
+        "label": "Open Access PDF",
+        "url": "https://uclab.re.kr/uploads/files/tung_jnca_2026_open.pdf?publications_openaccesspdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "journal-2",
+    "category": "journal",
+    "categoryLabel": "International Journals",
+    "title": "Energy-Efficient Online Federated Learning in Wireless Networks",
+    "authors": "J. Kim, J. Oh, W. Noh, and S. Cho",
+    "venue": "IEEE Transactions on Vehicular Technology, vol. 75, no. 8, pp. 16733–16748, August 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_tvt_2026_origin.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/11421057"
+      },
+      {
+        "label": "Open Access PDF",
+        "url": "https://uclab.re.kr/publications_openaccesspdf/jmkim_tvt_2026_open.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "journal-1",
+    "category": "journal",
+    "categoryLabel": "International Journals",
+    "title": "Digital Twin-Driven Semantic Offloading for LEO-MEC-Enabled Remote IoT Networks",
+    "authors": "A. B. Wondmagegn, D. Won, D. Lee, J. Kim, J. Kim, and S. Cho",
+    "venue": "Elsevier Internet of Things, vol. 35, no. 101831, January 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/ayalneh_iotj2025_v2.pdf"
+      },
+      {
+        "label": "Open Access PDF",
+        "url": "https://uclab.re.kr/publications_openaccesspdf/ayalneh_iotj2025_open.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-16",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Recent Advances in Artificial Intelligence for RIS in 6G Wireless Networks",
+    "authors": "S. Lee, S. Choi, D. Lee, D. Won, Q. T. Do, J. Kim, and S. Cho",
+    "venue": "in Proc. of ICAIIC, Tokyo, Japan, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sclee__icaiic_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-15",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Research on Real-Time and Robust MU-MIMO Scheduling under O-RAN Architecture",
+    "authors": "J. Kim, D. Won, D. Lee, J. Oh, C. Song, C. Lee, J. Kim, S. Choi, and S. Cho",
+    "venue": "in Proc. of ICAIIC, Tokyo, Japan, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_icaiic_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-14",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Joint Attention-Aware and Spectrum-Efficient Resource Allocation for Semantic Communication Enabled Metaverse",
+    "authors": "D. Won, D. Lee, J. Kim, and S. Cho",
+    "venue": "in Proc. of NOLTA, Okinawa, Japan, October 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dwwon_nolta_2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-13",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Survey on Near-Field Communication Systems: Channel Estimation, Beam Alignment, CSI Feedback",
+    "authors": "C. Song, J. Oh, J. Kim, G. Kim, and S. Cho",
+    "venue": "in Proc. of ICTC, Jeju, Korea, October 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_ictc_2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-12",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Survey on Intelligent Traffic Steering Techniques",
+    "authors": "S. Lee, S. Choi, D. Won, Q. T. Do, J. Kim, and S. Cho",
+    "venue": "in Proc. of ICUFN, Lisbon, Portugal, July 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sclee_icufn_2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-11",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Adapting Federated Learning to Dynamic and Non-Stationary Data: An Online Learning Approach",
+    "authors": "J. Kim, D. Hur, D. Won, and S. Cho",
+    "venue": "in Proc. of ICAIIC, Fukuoka, Japan, February 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_ICAIIC2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-10",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A DRL Framework to Optimize Energy Efficiency for Quadrature Rate-Splitting Multiple Access",
+    "authors": "A.-T. Tran, T. P. Truong, D. H. Mac, D. Won, J. Kim, N.-N. Dao, and S. Cho",
+    "venue": "in Proc. of ICAIIC, Fukuoka, Japan, February 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/Tien_ICAIIC2025.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/10920858"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-9",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Review on Task Offloading and Resource Allocation in Aerial and Satellite-Assisted MEC Systems",
+    "authors": "A. B. Wondmagegn, T. T. Win, D. Won, J. Kim, and S. Cho",
+    "venue": "in Proc. of ICAIIC, Fukuoka, Japan, February 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/ayalneh_ICAIIC2025.pdf"
+      },
+      {
+        "label": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/10920687"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-8",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "ML-Based Task-Oriented Offloading: A Survey",
+    "authors": "D. Won, T. P. Truong, C. Song, J. Kim, T. S. Do, and S. Cho",
+    "venue": "in Proc. of ICOIN, Chiang Mai, Thailand, January 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dwwon_ICOIN2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-7",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Survey on Online Learning Applications in Multi-UAV Network",
+    "authors": "J. Kim, H. Kim, J. Paek, Y. Son, H. Lee, and S. Cho",
+    "venue": "in Proc. of ICTC, Jeju, Korea, October 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_ictc_2024_2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-6",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Review on Resource Allocation in FL-Assisted IoT Networks: Overview, Research Challenges and Future Trends",
+    "authors": "M. C. Ho, D. Won, T. P. Truong, J. Kim, and S. Cho",
+    "venue": "in Proc. of ICMIC, Kuala Lumpur, Malaysia, August 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/cuong_icmic_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-5",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Research Trends of Reinforcement Learning Algorithms for C-V2X Network Resource Allocation",
+    "authors": "S. Hong, J. Kim, G. Kim, and S. Cho",
+    "venue": "in Proc. of ICUFN, Budapest, Hungary, July 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/shhong_icufn_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-4",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Advancing Multi-Agent Systems Integrating Federated Learning with Deep Reinforcement Learning: A Survey",
+    "authors": "J. Kim, G. Kim, S. Hong, and S. Cho",
+    "venue": "in Proc. of ICUFN, Budapest, Hungary, July 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkin_icufn_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-3",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Reinforcement Learning-Based UAV Handover Algorithm in Cellular Networks: A Survey",
+    "authors": "G. Kim, J. Kim, S. Hong, and S. Cho",
+    "venue": "in Proc. of ICUFN, Budapest, Hungary, July 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/ghkim_icufn_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "conference-2",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "A Review on Research Trends of Optimization for Client Selection in Federated Learning",
+    "authors": "J. Kim, C. Song, J. Paek, J. Kwon, and S. Cho",
+    "venue": "in Proc. of ICOIN, Ho Chi Minh, Vietnam, January 2024.",
+    "year": 2024,
+    "links": [],
+    "award": null
+  },
+  {
+    "id": "conference-1",
+    "category": "conference",
+    "categoryLabel": "International Conferences",
+    "title": "Survey on Cell-Free Massive MIMO with Limited Fronthaul",
+    "authors": "C. Song, J. Kim, J. Paek, J. Kwon, and S. Cho",
+    "venue": "in Proc. of ICOIN, Ho Chi Minh, Vietnam, January 2024.",
+    "year": 2024,
+    "links": [],
+    "award": null
+  },
+  {
+    "id": "korean-journal-1",
+    "category": "korean-journal",
+    "categoryLabel": "Korean Journals",
+    "title": "O-RAN 트래픽 스티어링 기술의 최신 동향",
+    "authors": "김재민, 김주영, 원동욱, 조성래",
+    "venue": "한국통신학회학회지 (정보와통신), 제43권, 제2호, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_information_and_communication_202601.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-43",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "무선 Backscatter 센서 네트워크 기술 동향",
+    "authors": "송치현, 이동현, 오준석, 김재민, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_kics_summer_2026_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-42",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "대규모 언어모델 기반 시맨틱 통신 연구 동향",
+    "authors": "이승찬, 이동현, 원동욱, 김재민, 최성진, Hao Hoang Tran, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sclee_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-41",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "O-RAN 및 디지털 트윈 기반 지능형 제어 기술 동향",
+    "authors": "김재민, 원동욱, 김주영, 이승찬, Thanh Thien-An Dang, Hao Hoang Tran, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-40",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Fluid Antenna System 연구 동향: 채널 추정 및 전송 기법",
+    "authors": "송치현, 오준석, 이동현, 김재민, 이윤성, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-39",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "개방형 무선 접속망과 연합학습의 융합 동향",
+    "authors": "오준석, 이동현, 이충현, Nguyen Thi My Tuyen, Thanh Phung Truong, 송치현, 김재민, Huy Dang Mac, 최성진, 이승찬, Ton That Tam Dinh, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-38",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "O-RAN 기반 AI-Native Traffic Steering 기술 동향",
+    "authors": "원동욱, Kiet Nguyen Tuan Tran, Thanh Thien-An Dang, 김재민, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dwwon_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-37",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Dynamic Metasurface Antenna 기반 채널 추정 연구 동향",
+    "authors": "이동현, 오준석, 이충현, The Vi Nguyen, Thanh Phung Truong, 송치현, 김재민, 원동욱, 김주영, 최성진, 이승찬, 이윤성, 조성래",
+    "venue": "통신정보 합동학술대회, 여수, April 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dhlee_jcci_2026.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-36",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "SLA 보장을 위한 지능형 네트워크 슬라이싱 기법 기술 동향",
+    "authors": "최성진, 이동현, 오준석, 김재민, 이승찬, 김주영, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sjchoi_kics_2026_winter_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-35",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "오픈랜 환경을 위한 차량 간 통신 및 실시간 무선 제어 기술 연구 동향 조사",
+    "authors": "김재민, 이동현, 오준석, 송치현, 최성진, 이승찬, 김주영, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_kics_2026_winter_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-34",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "무인항공기 기반 무선 충전식 센서 네트워크의 연구 동향에 대한 조사",
+    "authors": "오준석, 이동현, 이충현, 김재민, 송치현, Thanh Phung Truong, 최성진, 이승찬, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh_kics_2026_winter_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-33",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Fluid Antenna System 기반 다중접속 기술의 연구 동향",
+    "authors": "이동현, 오준석, 송치현, 김재민, 김주영, 이승찬, Thanh Phung Truong, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, February 2026.",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dhlee_kics_2026_winter_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-32",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "디지털 트윈 기반 네트워크 최적화 연구 동향",
+    "authors": "김주영, 김재민, 김가현, 최성진, 조성래",
+    "venue": "제6회 한국 인공지능 학술대회, 제주도, September 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jykim_kaic2025_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-31",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "시맨틱 통신과 생성형 인공지능 융합에 관한 최신 연구 동향",
+    "authors": "이승찬, 이동현, 송치현, 김재민, 조성래",
+    "venue": "제6회 한국 인공지능 학술대회, 제주도, September 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sclee_kaic2025_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-30",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "O-RAN에서의 트래픽 관리 및 자원 할당에 대한 조사",
+    "authors": "최성진, 원동욱, 김재민, 김주영, 조성래",
+    "venue": "제6회 한국 인공지능 학술대회, 제주도, September 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/sjchoi_kaic2025_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-29",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "동적 그래프 학습 기반 통신 트래픽 예측 연구 동향 조사",
+    "authors": "김재민, 오준석, 김가현, 송치현, 조성래",
+    "venue": "제6회 한국 인공지능 학술대회, 제주도, September 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_kaic2025_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-28",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Massive MIMO 시스템의 Fixed Point Network 알고리즘 연구 동향",
+    "authors": "송치현, 김재민, 조성래",
+    "venue": "제6회 한국 인공지능 학술대회, 제주도, September 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_kaic2025_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-27",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "O-RAN 기반 자원 할당 기술의 최신 연구 동향: 아키텍처, 알고리즘 및 연구 과제",
+    "authors": "김재민, 원동욱, 오준석, 송치현, 이승찬, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_kics_2025_summer_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-26",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Near-Field 기반 Extremely Large MIMO 시스템 연구 동향 조사",
+    "authors": "송치현, 이동현, 오준석, 이윤성, 김재민, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_kics_2025_summer_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-25",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Extremely Large MIMO 시스템의 채널 추정 기법 동향 조사",
+    "authors": "송치현, 이동현, 오준석, 이윤성, 김재민, 조성래",
+    "venue": "한국차세대컴퓨팅학회 춘계학술대회, 아산, May 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/chsong_kingc_2025.pdf"
+      }
+    ],
+    "award": "Best Paper Award"
+  },
+  {
+    "id": "korean-conference-24",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "연합 심층 강화 학습 기반 작업 오프로딩 및 자원 할당에 관한 연구 동향",
+    "authors": "오준석, 이동현, 송치현, 김재민, 최성진, 김주영, 조성래",
+    "venue": "한국차세대컴퓨팅학회 춘계학술대회, 아산, May 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh_kingc_2025.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-23",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Multi-Armed Bandits을 활용한 연합 학습 환경에서의 디바이스 스케줄링 전략: 최신 연구 동향 및 분석",
+    "authors": "김재민, 오준석, 원동욱, 김가현, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, February 2025.",
+    "year": 2025,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_kics_2025_winter_v2.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-22",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "저궤도 군집위성 네트워크 기반 연합 학습의 연구 동향에 대한 조사",
+    "authors": "오준석, 이동현, 원동욱, 송치현, 허동현, 김재민, 홍성훈, Thwe Thwe Win, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh_kics_2024_fall.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-21",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "효율적인 통신을 위한 연합 학습 환경에서의 최적화 연구: 최신 동향과 포괄적 조사",
+    "authors": "김재민, 이동현, 오준석, 원동욱, Ayalneh Bitew Wondmagegn, 조혜지, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_kics_2024_fall.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-20",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "통합 감지 및 통신 지원 빔 예측 및 빔 추적 기법에 대한 조사",
+    "authors": "이동현, 오준석, 송치현, 허동현, 김재민, 홍성훈, Thanh Phung Truong, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/dhlee_kics_2024_fall.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-19",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "A Survey on Task Offloading and Recource Allocation in LEO Satellite-Enabled MEC Networks Using DRL",
+    "authors": "Ayalneh Bitew Wondmagegn, 김재민, 원동욱, 이동현, 허동현, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/ayalneh_kics_2024_fall.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-18",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "최근 위성 지원 Cell-Free 네트워크 관한 연구",
+    "authors": "이윤성, 이동현, 김재민, 나인호, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/yslee2_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-17",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "LEO Satellite MEC Networks: Joint Offloading and Resource Allocation Using Deep Reinforcement Learning",
+    "authors": "Thanh Phung Truong, 김재민, 허동현, 오준석, 원동욱, 경연웅, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/phung2_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-16",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "비동기식 듀티 사이클링 메커니즘 기반 전력 효율적인 IoT의 연구 동향에 대한 조사",
+    "authors": "오준석, 이동현, 원동욱, 이충현, 김재민, 홍성훈, 이재환, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh1_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-15",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "경사 압축 알고리즘 기반 통신 효율적인 공중 연합 학습의 연구 동향에 대한 조사",
+    "authors": "오준석, 김재민, 이동현, 이윤성, 송치현, 허동현, 이재환, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jsoh2_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-14",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "차세대 무선 통신을 위한 이미지 전송 상황에서의 심층 통합 소스-채널 코딩: 연구 현황 및 과제",
+    "authors": "김재민, 이동현, 원동욱, 허동현, 김가현, 조혜지, 박수현, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim2_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-13",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "연합 학습 기반 네트워크 슬라이싱 최적화 연구의 최신 동향",
+    "authors": "김재민, 이윤성, 이충현, 오준석, 송치현, 홍성훈, 백정엽, 박수현, 조성래",
+    "venue": "한국통신학회 하계종합학술발표회, 제주도, June 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim1_kics_2024_summer.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-12",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "심층 강화 학습을 위한 연합 학습: 기술의 최신 연구 동향과 포괄적 조사",
+    "authors": "김재민, 홍성훈, 김가현, 조성래",
+    "venue": "통신정보 합동학술대회, 부산, April 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/jmkim_JCCI_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-11",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "강화 학습 기반 C-V2X 통신 자원 할당 연구 동향에 대한 조사",
+    "authors": "홍성훈, 김재민, 김가현, 조성래",
+    "venue": "통신정보 합동학술대회, 부산, April 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/shhong_JCCI_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-10",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "Cellular 네트워크에서 강화학습 기반 UAV 핸드오버 알고리즘 연구 동향",
+    "authors": "김가현, 홍성훈, 김재민, 이동현, 조성래",
+    "venue": "통신정보 합동학술대회, 부산, April 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/ghkim_JCCI_2024.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-9",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "위성-지상 통합 네트워크의 동적 핸드오버 기법 소개 및 연구 동향 조사",
+    "authors": "김가현, 이동현, 원동욱, 김재민, 백정엽, 김의직, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, January 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2024_winter_ghkim.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-8",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "통합 감지 및 통신 네트워크에서의 다양한 보안 기법 조사",
+    "authors": "이충현, 오준석, 김재민, 백정엽, 조성래, 신용구, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, January 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2024_winter_chlee.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-7",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "통신 효율적인 연합 학습을 위한 공중 아날로그 집계의 연구 동향에 대한 조사",
+    "authors": "오준석, 이동현, 송치현, 허동현, 김재민, 백정엽, 신용구, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, January 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2024_winter_jsoh.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-6",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "딥러닝 최적화 기법을 통한 통신 네트워크 트래픽 예측: 기술의 최신 연구 동향과 포괄적 조사",
+    "authors": "김재민, 오준석, 이동현, 원동욱, 송치현, 허동현, 백정엽, 김의직, 조성래",
+    "venue": "한국통신학회 동계종합학술발표회, 평창, January 2024.",
+    "year": 2024,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2024_winter_jmkim.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-5",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "모델 가중치 및 기울기 압축 기술 기반 통신 효율적 연합 학습: 포괄적 조사",
+    "authors": "오준석, 이동현, 김재민, 원동욱, 허동현, 송치현, 박래혁, 나웅수, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2023.",
+    "year": 2023,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2023_fall_jsoh.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-4",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "연합 학습 환경에서 사용자 선택을 위한 최적화기법의 연구 동향에 대한 조사",
+    "authors": "김재민, 이동현, 오준석, 원동욱, 송치현, 허동현, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2023.",
+    "year": 2023,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2023_fall_jmkim.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-3",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "다중 데이터 모달 기반의 의미론적 통신 시스템에 대한 연구 동향",
+    "authors": "원동욱, 이충현, 이동현, 김재민, 송치현, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2023.",
+    "year": 2023,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2023_fall_dwwon.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-2",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "차세대 네트워크를 위한 지능형 반사 표면 지원 비율 분할 다중 접속 기술에 대한 조사",
+    "authors": "이동현, 오준석, 송치현, 원동욱, 허동현, 김재민, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2023.",
+    "year": 2023,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2023_fall_dhlee.pdf"
+      }
+    ],
+    "award": null
+  },
+  {
+    "id": "korean-conference-1",
+    "category": "korean-conference",
+    "categoryLabel": "Korean Conferences",
+    "title": "하위 중앙 그룹화 알고리즘 기반 협동적 분산 스펙트럼 센싱",
+    "authors": "이충현, 오준석, 김재민, 조성래",
+    "venue": "한국통신학회 추계종합학술발표회, 경주, November 2023.",
+    "year": 2023,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uclab.re.kr/publications/original/kics_2023_fall_chlee.pdf"
+      }
+    ],
+    "award": null
+  }
+]
