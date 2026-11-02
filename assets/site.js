@@ -1,5 +1,31 @@
 'use strict';
 
+// Reuse the first three entries from the full journal list, including forthcoming papers.
+const recentJournals = document.querySelector('[data-recent-journals]');
+if (recentJournals) {
+  async function loadRecentJournals() {
+    try {
+      const response = await fetch('publications.html', { cache: 'no-cache' });
+      if (!response.ok) throw new Error(`Publication list returned ${response.status}`);
+      const publicationPage = new DOMParser().parseFromString(await response.text(), 'text/html');
+      const journalGroup = publicationPage.querySelector('[data-group="journal"]');
+      if (!journalGroup) throw new Error('Journal section is missing');
+      const papers = [...journalGroup.querySelectorAll('.publication')].slice(0, 3);
+      const copies = papers.map(paper => {
+        const copy = document.importNode(paper, true);
+        copy.id = `home-${paper.id}`;
+        return copy;
+      });
+      recentJournals.replaceChildren(...copies);
+      recentJournals.dataset.loaded = 'true';
+    } catch (error) {
+      // Keep the readable HTML fallback when the network or JavaScript is unavailable.
+      console.warn('Could not refresh recent journals; keeping the saved list.', error);
+    }
+  }
+  loadRecentJournals();
+}
+
 const controls = document.querySelector('.publication-controls');
 if (controls) {
   const search = document.querySelector('#publication-search');

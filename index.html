@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
   홈 화면은 이 index.html 파일을 직접 수정합니다. Python 실행 없이 저장/커밋하면 반영됩니다.
-  아래 [수정] 주석으로 이름, 소개글, 링크, 연구 분야, 논문, 이력 위치를 찾을 수 있습니다.
+  아래 [수정] 주석으로 이름, 소개글, 링크, 연구 분야, 이력 위치를 찾을 수 있습니다.
   화면에 보이는 문장은 태그 사이에서, 링크 주소는 href="..." 안에서 바꿔주세요.
   scripts/build.py는 publications.html만 생성하므로 이 파일의 수정 내용을 덮어쓰지 않습니다.
 -->
@@ -91,11 +91,20 @@
   </div>
 </section>
 
-<!-- [수정] 최근 출판된 국제저널: <article> 단위로 추가하고 최신 논문을 위에 놓습니다.
-     이 메인 목록은 직접 관리합니다. 전체 논문 목록의 데이터는 data/publications.json입니다. -->
+<!-- [자동] publications.html의 International journals 상단 3편을 순서대로 불러옵니다.
+     이 영역은 직접 수정할 필요가 없습니다. 아래 논문은 자동 로딩이 안 될 때의 기본 표시입니다. -->
 <section class="section" id="journal-publications" aria-labelledby="journal-title">
   <div class="section-heading"><h2 id="journal-title">Recent journal publications</h2><a class="section-link" href="publications.html">All publications <span aria-hidden="true">↗</span></a></div>
-  <div class="publication-list">
+  <div class="publication-list" data-recent-journals>
+    <article class="publication" id="home-journal-3" data-category="journal">
+      <p class="pub-year">2026</p>
+      <div class="pub-body">
+        <h3>On Energy Efficiency for Multi-Flow Semantic Routing in Multi-UAV Relay Networks</h3>
+        <p class="authors">T. S. Do, T. P. Truong, K. N. T. Tran, H. D. Mac, J. Kim, T.-H. Nguyen, N.-N. Dao, and S. Cho</p>
+        <p class="venue">to appear in Elsevier Journal of Network and Computer Applications, 2026.</p>
+        <div class="paper-links"><a href="https://uclab.re.kr/uploads/files/tung_jnca_2026_open.pdf?publications_openaccesspdf">Open PDF<span aria-hidden="true"> ↗</span></a></div>
+      </div>
+    </article>
     <article class="publication" id="home-journal-2" data-category="journal">
       <p class="pub-year">2026</p>
       <div class="pub-body">

@@ -29,14 +29,14 @@
 
 | 내용 | 파일 |
 | --- | --- |
-| 홈 소개, 소속, 링크, 연구 분야, 이력, 메인 저널 목록 | `index.html` |
+| 홈 소개, 소속, 링크, 연구 분야, 이력 | `index.html` |
 | 전체 논문 목록 데이터 | `data/publications.json` |
 | 전체 논문 페이지 생성 코드 | `scripts/build.py` |
 | 색상, 글꼴, 간격, 모바일 레이아웃 | `assets/style.css` |
-| 논문 검색 및 분류 필터 | `assets/site.js` |
+| 홈 저널 자동 표시, 논문 검색 및 분류 필터 | `assets/site.js` |
 | 프로필 사진 | `assets/portrait.jpeg` |
 
-메인 저널 목록은 `index.html`에서 직접 관리하며, 출판일이 최근인 논문을 위에 놓습니다. 전체 논문 목록에는 출판 예정 논문도 포함됩니다.
+홈의 **Recent journal publications**는 `publications.html`의 **International journals 상단 3편**을 그대로 불러옵니다. 출판 예정 논문도 포함하며, 순서는 전체 논문 목록과 같습니다. 전체 논문 페이지를 갱신하면 홈에서도 자동 반영되므로 홈의 논문 영역을 따로 수정할 필요가 없습니다. JavaScript 또는 네트워크를 사용할 수 없는 경우에는 HTML에 저장된 기본 목록을 표시합니다.
 
 ## 전체 논문 목록을 갱신하는 방법
 
